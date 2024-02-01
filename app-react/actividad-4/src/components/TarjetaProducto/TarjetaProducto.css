@@ -1,0 +1,27 @@
+.tarjeta-producto{
+    background-color: rgba(128, 128, 128, 0.384);
+    padding: 20px;
+    margin: 20px;
+}
+
+img{
+    width: 30%;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.precio{
+    font-size: 22px;
+}
+
+.precio:hover{
+    color: green;
+}
+
+.descripcion{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
