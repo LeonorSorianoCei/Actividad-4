@@ -1,0 +1,10 @@
+const TarjetaProducto = () =>{
+    return(
+        <>
+        <div className="TarjetaProducto">
+        </div>
+        </>
+    )
+}
+
+export default Alumno;
