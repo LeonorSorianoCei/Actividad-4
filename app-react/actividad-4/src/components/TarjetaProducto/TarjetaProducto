@@ -1,7 +1,7 @@
 const TarjetaProducto = () =>{
     return(
         <>
-        <div className="TarjetaProducto">
+        <div className="">
         </div>
         </>
     )
