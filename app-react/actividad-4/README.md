@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 
 
-Enunciado:
+ENUNCIADO:
 Crear un componente llamado "TarjetaProducto" en React que represente visualmente la información de un producto y luego utilizarlo en una aplicación para mostrar una lista de productos en tarjetas.
 
 
