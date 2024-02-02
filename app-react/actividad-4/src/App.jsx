@@ -1,5 +1,5 @@
 import TarjetaProducto from './components/TarjetaProducto/TarjetaProducto';
-import './App.css'
+import '@fortawesome/fontawesome-free/css/all.css';
 
 function App() {
   
@@ -8,7 +8,7 @@ function App() {
       nombre: 'Jersey de cuello alto',
       imagen: 'src/img/jersey.jpg',
       precio: '29.99 €',
-      stock: 0,
+      stock: 20,
       descripcion: 'Jersey para protegerse del frío. Es suave, cómodo y calentito.',
     },
     {
@@ -43,6 +43,9 @@ function App() {
 
   return (
     <div>
+      <header className="header">
+        <h1>Tienda de Ropa</h1>
+      </header>
       {listaProductos.map((producto, index) => (
         <TarjetaProducto
           key={index}
@@ -54,6 +57,20 @@ function App() {
           {producto.descripcion}
         </TarjetaProducto>
       ))}
+
+        <footer className="footer">
+          <div className="social-icons">
+            <a href="#" className="social-icon">
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" className="social-icon">
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a href="#" className="social-icon">
+              <i className="fab fa-instagram"></i>
+            </a>
+          </div>
+        </footer>
     </div>
   );
 }
